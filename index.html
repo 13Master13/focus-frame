@@ -188,7 +188,9 @@
     <section class="section">
   <div class="sign-up container">
     <div class="field-container">
-      <h2 class="sign-up-title">Sign <span class="title-up">Up</span></h2>
+      <h2 class="sign-up-title" id="our-sign-up">
+        Sign <span class="title-up">Up</span>
+      </h2>
       <p class="sign-up-text">
         Please use the form below to contact us. Enter your name, email, and
         message and we'll get back to you shortly.
@@ -239,19 +241,32 @@
     <div class="picture-block">
       <ul class="picture-list">
         <li class="signup-lens">
-          <img
-            class="lens-img"
-            srcset="/justdoit/assets/lens-b8c523fa.webp 1x, /justdoit/assets/lens@2x-e3d65220.webp 2x"
-            alt="img-lens"
-          />
+          <picture>
+            <source
+              srcset="/justdoit/assets/lens-b8c523fa.webp 1x, /justdoit/assets/lens@2x-e3d65220.webp 2x"
+              media="(min-width: 1280px)"
+            />
+
+            <img
+              class="lens-img"
+              srcset="/justdoit/assets/lens-b8c523fa.webp 1x, /justdoit/assets/lens@2x-e3d65220.webp 2x"
+              alt="img-lens"
+            />
+          </picture>
         </li>
 
         <li class="signup-nikon">
-          <img
-            class="nikon-img"
-            srcset="/justdoit/assets/camera-nikon-3f3537dc.webp 1x, /justdoit/assets/camera-nikon@2x-5a0c3a0e.webp 2x"
-            alt="img-camera-nikon"
-          />
+          <picture>
+            <source
+              srcset="/justdoit/assets/camera-nikon-3f3537dc.webp 1x, /justdoit/assets/camera-nikon@2x-5a0c3a0e.webp 2x"
+              media="(min-width: 1280px)"
+            />
+            <img
+              class="nikon-img"
+              srcset="/justdoit/assets/camera-nikon-3f3537dc.webp 1x, /justdoit/assets/camera-nikon@2x-5a0c3a0e.webp 2x"
+              alt="img-camera-nikon"
+            />
+          </picture>
         </li>
       </ul>
     </div>
