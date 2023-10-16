@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Focus.Frame</title>
     
-    <script type="module" crossorigin src="/justdoit/assets/index-d75e7028.js"></script>
-    <link rel="stylesheet" href="/justdoit/assets/index-b2188ad1.css">
+    <script type="module" crossorigin src="/justdoit/assets/index-4a5d97d1.js"></script>
+    <link rel="stylesheet" href="/justdoit/assets/index-2994d6a3.css">
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
-  <div class=" container header-container">
+  <div class="container header-container">
     <div class="header-info">
       <div class="header-info-nav">
         <svg class="header-icon-logo" width="123" height="16">
@@ -20,108 +20,42 @@
         </svg>
         <nav class="header-nav">
           <ul class="header-nav-up">
-            <li class="header-nav-list"> 
-              <a href="#">
-                about us
-              </a>
-            </li> 
-            <li class="header-nav-list"> 
-              <a href="#">
-                our courses
-              </a>
+            <li class="header-nav-list">
+              <a href="#about-us"> about us </a>
             </li>
-            <li class="header-nav-list"> 
-              <a href="#">
-                our mentors
-              </a>
-            </li> 
-            <li class="header-nav-list"> 
-              <a href="">
-                reviews
-              </a>
+            <li class="header-nav-list">
+              <a href="#our-courses"> our courses </a>
             </li>
-            <li class="header-nav-list"> 
-              <a href="">
-                contacts
-              </a>
+            <li class="header-nav-list">
+              <a href="#our-mentors"> our mentors </a>
+            </li>
+            <li class="header-nav-list">
+              <a href="#reviews"> reviews </a>
+            </li>
+            <li class="header-nav-list">
+              <a href="#contacts"> contacts </a>
             </li>
           </ul>
         </nav>
       </div>
       <div class="header-info-icon">
-        <a href="#our-sign-up" class="header-icon-camera-a"> 
-          <svg class="header-icon-camera" width="16" height="16">
-            <use href="/justdoit/assets/icons-84d3f64e.svg#icon-camera"></use>
-          </svg>
+        <a href="#our-sign-up" class="header-icon-camera-a">
+          <div class="header-icon-camera-container">
+            <svg class="header-icon-camera" width="16" height="16">
+              <use href="/justdoit/assets/icons-84d3f64e.svg#icon-camera"></use>
+            </svg>
+          </div>
         </a>
-        <button class="header-button-nav data-modal-open">
+        <button class="header-button-nav" data-modal-open>
           <svg class="header-icon-burger" width="32px" heigth="22px">
             <use href="/justdoit/assets/icons-84d3f64e.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
-     </div>
-     <button class="header-button" type="button">sign up</button>
+    </div>
+    <button class="header-button" type="button">sign up</button>
   </div>
-
-<!-- MENU -->
-
-
-<div class="backdrop data-modal" >
-  <div class="modal">
-    <button class="menu-close-button data-modal-open" >
-      <svg class="modal-lose-icon"
-    aria-label="close icon"
-    width="32"
-    heidth="32">
-        <use href="/justdoit/assets/icons-84d3f64e.svg#icon-close">
-        </use>
-      </svg>
-    </button>
-    <nav class="header-nav-modal">
-      <ul class="header-nav-up-modal">
-        <li class="header-nav-list-modal">
-          <a href="#" >
-            about us
-          </a>
-        </li> 
-        <li class="header-nav-list-modal">
-          <a href="#">
-            our courses
-          </a>
-        </li> 
-        <li class="header-nav-list-modal">
-          <a href="#" >
-            our mentors
-          </a>
-        </li>
-        <li class="header-nav-list-modal">
-          <a href="#" >
-            reviews
-          </a>
-        </li> 
-        <li class="header-nav-list-modal">
-          <a href="#" >
-            contacts
-          </a>
-        </li> 
-       
-      </ul>
-    </nav>
-  </div>
-  <div class="modal-camera">
-    <picture>
-    <source media="(min-width: 768px)" srcset="/justdoit/assets/camera-header-c31a5f3a.jpg 1x, /justdoit/assets/camera-header@2x-80984e83.jpg 2x" type="image/jpg"> 
-              <source media="(max-width: 767px)" srcset="/justdoit/assets/camera-header-c31a5f3a.jpg 1x, /justdoit/assets/camera-header@2x-80984e83.jpg 2x" type="image/jpg"> 
-         <img class="header-modal-camera" src="/src/img/section-header/camera-header.jpg" alt="camera-header"> 
-      </picture>
-  </div>
-</div>
 </header>
-
-
-
-
 
       <section class="hero">
   <div class="container">
@@ -470,7 +404,7 @@
   </div>
 </section>
 
-    <section class="reviews-section">
+    <section class="section">
   <div class="container">
     <h2 class="reviews-container-headline" id="reviews">Reviews</h2>
     <div class="reviews-container">
@@ -541,77 +475,56 @@
       </div>
 
       <div class="reviews-container-second">
-        <div class="reviews-container-info-second">
-          <div class="reviews-container-picture-second">
-            <picture class="reviews-picture-second">
+        <div class="reviews-container-info">
+          <div class="reviews-container-picture">
+            <picture class="reviews-picture">
               <source
                 media=""
                 srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIADgAOAMBIgACEQEDEQH/xAAzAAACAgMBAAAAAAAAAAAAAAAABQYHAwQIAgEAAgMBAQAAAAAAAAAAAAAAAwQAAgUBBv/aAAwDAQACEAMQAAAAv/W9J5IlV8Jstdl1dNMS+1Z4YQwFmhsk7z22aOUdJJYMWsMwM5hGE8y7f5scSbtlbjK2phLuZGG753pA1zN05FAwtWASUAngVqg6jPgFG//EADIQAAICAQMCBAMGBwEAAAAAAAECAwQFABESBiEQE0FRIjFhBxQyM3GRNFJjcoGDocL/2gAIAQEAAT8A1NbWMlU7trq/rmHAokZ3nuSDdIQdgB7tpet+rL8pQSiHk3YxRghddP8A2gZOtcSlnOKhzxSyv/saq3kfZZBs3ofTwuTiNPLQ9z8z4Za/PmOo715wSvmsQPZF+FRrAY4RIksu3nOPw/yjWRxlaaFw0YJYa6ZtPawdGR/xhCh/1krqjO0o8sn4gOx+mp35zO3pv21dd0p2nQnksLkbfPcDWIxdc5OfkoAkPMqfQg7gDT4/MJZfjDF5XIFWB4v+u41kstJTigRm2Z05FmUsNh+munK7QYeqGIJfnLuP6jFxqBzHMjD38c1WgqZyQ1l4hSu4/uAOpLEjVvgALe2+2qsRt+THLXKksAQ3oPU6AAAAGwHhOhjmdT76vXYKFSe1O/GOJCx1Nkpb8xvMAGmO5UfIem2hNQtQ85XhVoxsefbb/OunBixQH3e3HJJINtuZLKPbZu/hAnOVB9dzrquLKjGyWcUitYj7lCvIsnrx+usjk8jkWb73blkAP4SdlB+ijtrB1o7VV4ydmRv+HVrDJPjLNdQFaRezaj7ovvqtl8pUYCC9On0Dnb9tdKJlUxUU2V/i5NyBxCsqH5cgPXw6p+z6plHluUGWvaJJcH8uQ6xfTudxOQdLlGZI2jI5qOSfuuih32276g6Tzty/Zhq4+XgJm2dhwTYn3OunOgKmJdLV51sWwQVA/LjPh//EACERAAIBBAMAAwEAAAAAAAAAAAEDAgAEETEQEiEVIlGh/9oACAECAQE/AKbMjwUphkTE75OyDsUgbPFtaF/27gAH39q4WVXLFnQl/K+LHUFbPCPMipR6yMcg4OxSmsVLtCWDV9MsbFhABlAZxUrtxQpecDoB5s8f/8QAJBEAAgEDAwMFAAAAAAAAAAAAAQIDAAQREiExBRATFSJBYaH/2gAIAQMBAT8AqKIHmpogoDLxnsOaUjAZRsauTsq/ee1zeLAdOhiSNj8VazeW1jlXkr+16sxdhLF7s74NI2pVbBGRnBqWKOVdLrkV09BFC0akkK5xmls4BcSy6ct5Cd+B2//Z 1x, data:image/jpeg;base64,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 2x"
               />
               <img
-                class="reviews-container-img-second"
+                class="reviews-container-img"
                 src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIADgAOAMBIgACEQEDEQH/xAAzAAACAgMBAAAAAAAAAAAAAAAABQYHAwQIAgEAAgMBAQAAAAAAAAAAAAAAAwQAAgUBBv/aAAwDAQACEAMQAAAAv/W9J5IlV8Jstdl1dNMS+1Z4YQwFmhsk7z22aOUdJJYMWsMwM5hGE8y7f5scSbtlbjK2phLuZGG753pA1zN05FAwtWASUAngVqg6jPgFG//EADIQAAICAQMCBAMGBwEAAAAAAAECAwQFABESBiEQE0FRIjFhBxQyM3GRNFJjcoGDocL/2gAIAQEAAT8A1NbWMlU7trq/rmHAokZ3nuSDdIQdgB7tpet+rL8pQSiHk3YxRghddP8A2gZOtcSlnOKhzxSyv/saq3kfZZBs3ofTwuTiNPLQ9z8z4Za/PmOo715wSvmsQPZF+FRrAY4RIksu3nOPw/yjWRxlaaFw0YJYa6ZtPawdGR/xhCh/1krqjO0o8sn4gOx+mp35zO3pv21dd0p2nQnksLkbfPcDWIxdc5OfkoAkPMqfQg7gDT4/MJZfjDF5XIFWB4v+u41kstJTigRm2Z05FmUsNh+munK7QYeqGIJfnLuP6jFxqBzHMjD38c1WgqZyQ1l4hSu4/uAOpLEjVvgALe2+2qsRt+THLXKksAQ3oPU6AAAAGwHhOhjmdT76vXYKFSe1O/GOJCx1Nkpb8xvMAGmO5UfIem2hNQtQ85XhVoxsefbb/OunBixQH3e3HJJINtuZLKPbZu/hAnOVB9dzrquLKjGyWcUitYj7lCvIsnrx+usjk8jkWb73blkAP4SdlB+ijtrB1o7VV4ydmRv+HVrDJPjLNdQFaRezaj7ovvqtl8pUYCC9On0Dnb9tdKJlUxUU2V/i5NyBxCsqH5cgPXw6p+z6plHluUGWvaJJcH8uQ6xfTudxOQdLlGZI2jI5qOSfuuih32276g6Tzty/Zhq4+XgJm2dhwTYn3OunOgKmJdLV51sWwQVA/LjPh//EACERAAIBBAMAAwEAAAAAAAAAAAEDAgAEETEQEiEVIlGh/9oACAECAQE/AKbMjwUphkTE75OyDsUgbPFtaF/27gAH39q4WVXLFnQl/K+LHUFbPCPMipR6yMcg4OxSmsVLtCWDV9MsbFhABlAZxUrtxQpecDoB5s8f/8QAJBEAAgEDAwMFAAAAAAAAAAAAAQIDAAQREiExBRATFSJBYaH/2gAIAQMBAT8AqKIHmpogoDLxnsOaUjAZRsauTsq/ee1zeLAdOhiSNj8VazeW1jlXkr+16sxdhLF7s74NI2pVbBGRnBqWKOVdLrkV09BFC0akkK5xmls4BcSy6ct5Cd+B2//Z"
                 alt="Amanda Lowery"
-                alt=""
                 width="56"
                 height="56"
               />
             </picture>
           </div>
 
-          <div class="reviews-container-wrapper-second">
-            <h3 class="reviews-container-name-second">Amanda Lowery</h3>
-            <p class="reviews-container-work-second">Student</p>
+          <div class="reviews-container-wrapper">
+            <h3 class="reviews-container-name">Amanda Lowery</h3>
+            <p class="reviews-container-work">Student</p>
           </div>
 
-          <div class="reviews-container-icon-second">
-            <ul class="reviews-container-list-second">
-              <li class="reviews-list-icon-second">
-                <svg
-                  class="reviews-list-icon-star-second"
-                  width="20"
-                  height="20"
-                >
+          <div class="reviews-container-icon">
+            <ul class="reviews-container-list">
+              <li class="reviews-list-icon">
+                <svg class="reviews-list-icon-star" width="20" height="20">
                   <use href="/justdoit/assets/icons-84d3f64e.svg#icon-star"></use>
                 </svg>
               </li>
 
-              <li class="reviews-list-icon-second">
-                <svg
-                  class="reviews-list-icon-star-second"
-                  width="20"
-                  height="20"
-                >
+              <li class="reviews-list-icon">
+                <svg class="reviews-list-icon-star" width="20" height="20">
                   <use href="/justdoit/assets/icons-84d3f64e.svg#icon-star"></use>
                 </svg>
               </li>
 
-              <li class="reviews-list-icon-second">
-                <svg
-                  class="reviews-list-icon-star-second"
-                  width="20"
-                  height="20"
-                >
+              <li class="reviews-list-icon">
+                <svg class="reviews-list-icon-star" width="20" height="20">
                   <use href="/justdoit/assets/icons-84d3f64e.svg#icon-star"></use>
                 </svg>
               </li>
 
-              <li class="reviews-list-icon-second">
-                <svg
-                  class="reviews-list-icon-star-second"
-                  width="20"
-                  height="20"
-                >
+              <li class="reviews-list-icon">
+                <svg class="reviews-list-icon-star" width="20" height="20">
                   <use href="/justdoit/assets/icons-84d3f64e.svg#icon-star"></use>
                 </svg>
               </li>
 
-              <li class="reviews-list-icon-second">
-                <svg
-                  class="reviews-list-icon-star-5-second"
-                  width="20"
-                  height="20"
-                >
+              <li class="reviews-list-icon">
+                <svg class="reviews-list-icon-star-5" width="20" height="20">
                   <use href="/justdoit/assets/icons-84d3f64e.svg#icon-star"></use>
                 </svg>
               </li>
@@ -619,7 +532,7 @@
           </div>
         </div>
 
-        <div class="reviews-container-comments-second">
+        <div class="reviews-container-comments">
           The courses at the photography school exceeded all my expectations. I
           gained not only technical knowledge, but also inspiration and
           motivation to reach new heights in my creativity. Hands-on classes and
@@ -715,6 +628,58 @@
   </div>
 </footer>
 
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="menu-close-button" data-modal-close>
+          <svg
+            class="modal-lose-icon"
+            aria-label="close icon"
+            width="32"
+            heidth="32"
+          >
+            <use href="/justdoit/assets/icons-84d3f64e.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="header-nav-modal">
+          <ul class="header-nav-up-modal">
+            <li class="header-nav-list-modal">
+              <a href="#about-us"> about us </a>
+            </li>
+            <li class="header-nav-list-modal">
+              <a href="#our-courses"> our courses </a>
+            </li>
+            <li class="header-nav-list-modal">
+              <a href="#our-mentors"> our mentors </a>
+            </li>
+            <li class="header-nav-list-modal">
+              <a href="#reviews"> reviews </a>
+            </li>
+            <li class="header-nav-list-modal">
+              <a href="#contacts"> contacts </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="modal-camera">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="/justdoit/assets/camera-header-c31a5f3a.jpg 1x, /justdoit/assets/camera-header@2x-80984e83.jpg 2x"
+              type="image/jpg"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/justdoit/assets/camera-header-c31a5f3a.jpg 1x, /justdoit/assets/camera-header@2x-80984e83.jpg 2x"
+              type="image/jpg"
+            />
+            <img
+              class="header-modal-camera"
+              src="/src/img/section-header/camera-header.jpg"
+              alt="camera-header"
+            />
+          </picture>
+        </div>
+      </div>
+    </div>
     
   </body>
 </html>
