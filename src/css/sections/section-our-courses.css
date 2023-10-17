@@ -34,10 +34,17 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: var(--c-gradient);
   position: relative;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .courses-li:not(:last-child) {
   margin-bottom: 20px;
 }
+.courses-li:hover,
+.courses-li:focus {
+  transform: scale(1.05);
+  border: 1px solid var(--c-brand);
+}
+
 .courses-link {
   position: absolute;
   top: 28px;
